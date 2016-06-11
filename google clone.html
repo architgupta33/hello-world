@@ -1,0 +1,83 @@
+<html>
+<head>
+    <style>
+        div { position: absolute;
+              right: 0px;
+              top: 1px;}
+        ul {
+            margin: 18;
+            padding: 0;}
+        li { list-style-type: none;
+             float: right;}
+        li a { border-right: 18px solid white;
+               font-size: 14px;
+               text-decoration: none;}
+        li a.gmail { background-color: #1362F5;
+                     color: white;
+                     display: inline;
+                     padding: 6px 13px;}
+        li a.image { padding: 0px 0px;
+                     display: inline;}
+        li a:hover:not(.basic) {text-decoration: underline;}
+        img.google { margin: auto;
+                     position: absolute;
+                     top: 190;
+                     left: 475; }
+        input[type=text] { width: 45%;
+                           padding: 12px 15px;
+                           position: absolute;
+                           top: 320;
+                           left: 355;}
+        input[type=button] { background-color: #EAE7E7;
+                             border: none;
+                             color: #8B8585;
+                             font-weight: bold;        
+                             padding: 8px 15px;
+                             text-decoration: none;
+                             margin: 4px 2px;
+                             cursor: pointer;
+                             font-size: 13px;}
+        div.btn { position: absolute;
+                  top: 389;
+                  left: 500;}
+        div.main { position: absolute;
+                  top: 443;
+                  left: 383;}
+        div.minor { position: absolute;
+                  top: 9;
+                  left: 135;}
+        p { font-size: 14px;}
+    </style>
+    </head>
+    <body>
+        <div>
+        <ul>  
+            <li><a class="gmail" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/">Sign In</a></li>
+             <li><a class="image" href="https://apps.google.com/"><img src="App.png"></a></li>
+            <li><a class="basic" href="https://www.google.co.in/imghp?hl=en&tab=wi&ei=jhNcV6ixGImavQSnqJroDQ&ved=0EKouCBMoAQ">Images</a></li>
+            <li><a class="basic" href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1">Gmail</a></li>   
+        </ul>
+        </div>
+        <img class="google" src="Google%20image.png">
+        <form>
+        <input type="text" ><br>
+            <div class="btn">
+        <input type="button" name="gsearch" value="Google Search">
+        <input type="button" name="lucky" value="I'm Feeling Lucky">
+            </div>
+        </form>
+        <div class="main">
+        <p>Google.co.in offered in:
+            <div class="minor">
+            <table border=0>
+                <tr>
+                    <td><img src="Hindi.png"></td>
+                    <td><img src="Bengali.png"></td>
+                    <td><img src="Tamil.png"></td>
+                </tr>
+                </table>
+        </div>
+                </p>
+        </div>
+    </body>
+</html>
